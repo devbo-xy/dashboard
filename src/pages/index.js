@@ -168,7 +168,43 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="bg-gradient-to-r from-[#DDF8C1] to-[#EEFCEB] w-[28rem] h-[13rem] rounded-2xl"></div>
+              <div className="bg-gradient-to-r from-[#DDF8C1] to-[#D0F2D3] w-[28rem] h-[13rem] rounded-2xl relative overflow-hidden p-4">
+                <span className="w-[25rem] h-[25rem] bg-white opacity-30 rounded-full absolute -right-[5rem] -top-[8rem] shadow-xl" />
+                <span className="w-[22rem] h-[22rem] bg-white opacity-20 rounded-full absolute -right-[7rem] -top-[11rem] shadow-lg" />
+                <span className="w-[16rem] h-[16rem] bg-white opacity-20 rounded-full absolute -right-[6rem] -top-[8rem] shadow-lg" />
+                <div className="flex flex-col justify-between h-full space-y-4 z-[5]">
+                  <div className="flex flex-row">
+                    <span className="w-10 h-10 rounded-full bg-black" />
+                    <span className="w-10 h-10 rounded-full bg-black/30 -ml-5" />
+                  </div>
+                  <div className="flex flex-col z-[1]">
+                    <div>
+                      <h2 className="text-black/60 text-xs font-bold uppercase">
+                        Card Number
+                      </h2>
+                    </div>
+                    <div>
+                      <h2 className="text-black text-2xl font-bold">
+                        3829 4820 4629 5025
+                      </h2>
+                    </div>
+                  </div>
+                  <div className="flex flex-row justify-between">
+                    <div className="flex flex-col z-[1]">
+                      <div>
+                        <h2 className="text-black/60 text-xs font-bold uppercase">
+                          Card Holder Name
+                        </h2>
+                      </div>
+                      <div>
+                        <h2 className="text-black text-xl font-bold">
+                          Lukman Hanif A
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
